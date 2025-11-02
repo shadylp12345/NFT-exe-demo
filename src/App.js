@@ -632,7 +632,11 @@ export default function NFTMarketplace() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-gradient-to-r from-aurora-cyan via-aurora-blue to-aurora-purple rounded-lg flex items-center justify-center shadow-lg shadow-aurora-cyan/50">
-              <Tag className="w-6 h-6 text-white" />
+              <img
+                src="./logo.png"
+                alt="AURA Marketplace Logo"
+                className="w-10 h-10"
+              />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-aurora-cyan via-aurora-purple to-aurora-pink">
